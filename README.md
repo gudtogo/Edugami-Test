@@ -10,6 +10,7 @@ Repositorio para la entrega de la prueba tecnica de Edugami
 - pip install -r requirements.txt
 - python manage.py makemigrations
 - python manage.py migrate
+- python manage.py load_seed_data
 - python manage.py runserver
 
 ## Rutas extras y ruta base

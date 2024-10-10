@@ -1,0 +1,83 @@
+{
+    "students": [
+        {"id": "1", "rut": "12345678-9", "name": "Juan Pérez"},
+        {"id": "2", "rut": "23456789-0", "name": "Ana Gómez"},
+        {"id": "3", "rut": "34567890-1", "name": "Carlos Ruiz"},
+        {"id": "4", "rut": "45678901-2", "name": "Daniela Martínez"},
+        {"id": "5", "rut": "56789012-3", "name": "Eduardo Hernández"},
+        {"id": "6", "rut": "67890123-4", "name": "Fernanda López"},
+        {"id": "7", "rut": "78901234-5", "name": "Gustavo Morales"},
+        {"id": "8", "rut": "89012345-6", "name": "Helena Jiménez"},
+        {"id": "9", "rut": "90123456-7", "name": "Iván Castillo"},
+        {"id": "10", "rut": "01234567-8", "name": "Julia Rodríguez"}
+    ],
+    "tests": [
+        {
+            "id": "1",
+            "name": "Prueba de Matemáticas",
+            "questions": [
+                {
+                    "id": "1",
+                    "statement": "¿Cuál es el resultado de 2 + 2?",
+                    "explanation": "Suma básica de dos números.",
+                    "alternatives": [
+                        {"id": "1", "content": "3", "correct": false},
+                        {"id": "2", "content": "4", "correct": true},
+                        {"id": "3", "content": "5", "correct": false},
+                        {"id": "4", "content": "2", "correct": false}
+                    ],
+                    "score": "1",
+                    "axisType": "Numeros"
+                },
+                {
+                    "id": "2",
+                    "statement": "¿Cuál es la capital de Francia?",
+                    "explanation": "Pregunta de conocimiento general.",
+                    "alternatives": [
+                        {"id": "1", "content": "Madrid", "correct": false},
+                        {"id": "2", "content": "París", "correct": true},
+                        {"id": "3", "content": "Berlín", "correct": false}
+                    ],
+                    "score": "1",
+                    "axisType": "Geometria"
+                },
+                {
+                    "id": "3",
+                    "statement": "¿Cuál es la fórmula del área de un círculo?",
+                    "explanation": "Fórmula básica de geometría.",
+                    "alternatives": [
+                        {"id": "1", "content": "πr^2", "correct": true},
+                        {"id": "2", "content": "2πr", "correct": false},
+                        {"id": "3", "content": "πd", "correct": false}
+                    ],
+                    "score": "1",
+                    "axisType": "Geometria"
+                },
+                {
+                    "id": "4",
+                    "statement": "Resolver x en la ecuación: 2x + 3 = 7.",
+                    "explanation": "Ejercicio básico de álgebra.",
+                    "alternatives": [
+                        {"id": "1", "content": "x = 1", "correct": false},
+                        {"id": "2", "content": "x = 2", "correct": true},
+                        {"id": "3", "content": "x = 3", "correct": false}
+                    ],
+                    "score": "1",
+                    "axisType": "Álgebra y Funciones"
+                },
+                {
+                    "id": "5",
+                    "statement": "¿Cuál es la probabilidad de sacar un as de un mazo de cartas?",
+                    "explanation": "Cálculo de probabilidad simple.",
+                    "alternatives": [
+                        {"id": "1", "content": "1/52", "correct": false},
+                        {"id": "2", "content": "1/13", "correct": true},
+                        {"id": "3", "content": "1/26", "correct": false}
+                    ],
+                    "score": "1",
+                    "axisType": "Probabilidad y Estadisticas"
+                }
+            ]
+        }
+    ]
+}
