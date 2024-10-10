@@ -8,6 +8,10 @@ Repositorio para la entrega de la prueba tecnica de Edugami
 
 ## Instalacion y ejecucion
 - pip install -r requirements.txt
+
+- Crear propio archivo .env y asignar SECRET_KEY. 
+- python -c "import secrets; print(secrets.token_urlsafe(50))" para crear una key
+
 - python manage.py makemigrations
 - python manage.py migrate
 - python manage.py load_seed_data
